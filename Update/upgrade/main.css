@@ -1,0 +1,134 @@
+/*
+	PayAdmin by Fedcomp and gmstaff (gm-community.net)
+	CSS file of moontheme
+*/
+
+/************************************************************************/
+/* Reset default user-agent css */
+
+table {border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,th,var { font-style:normal; font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+address{ display: inline; }
+
+/************************************************************************/
+
+body {
+	background-image: url(images/gradient.png);
+	background-repeat: repeat-x;
+}
+
+#page {
+	background: #fff;
+	color: #333;
+	font-family: Segoe UI;
+	font-size: 15px;
+	margin: 15px;
+	padding: 1em 2em;
+	-moz-border-radius: 11px; 	/* Кос 	*/
+	-khtml-border-radius: 11px;	/* ты 	*/
+	-webkit-border-radius: 11px;	/* ли	*/
+	border-radius: 11px;
+	border: 1px solid #dfdfdf;
+}
+
+a, a:link, a:visited {
+	color: #0187C5;
+	text-decoration: none
+}
+
+a:hover {
+	color: #6DD1FF;
+}
+
+h1 {
+	border-bottom: 1px solid #dadada;
+	clear: both;
+	color: #666;
+	font: 24px Georgia,"Times New Roman",Times,serif;
+	margin: 5px 0 0 -4px;
+	padding: 0;
+	padding-bottom: 7px;
+}
+
+h2 {
+	font-size: 16px;
+	margin: 0;
+}
+
+p,li,dd,dt {
+	padding-bottom: 2px;
+	line-height: 18px;
+}
+
+code,.code {
+	font-size: 13px;
+}
+
+ul,ol,dl {
+	padding: 5px 5px 5px 22px;
+}
+
+a img {
+	border: 0;
+}
+
+#title {
+	margin: 6px 0 14px 0;
+	float: left;
+}
+
+#title span, #title span a {
+	color: #333;
+	text-decoration: none;
+	font-size: 50px;
+	font-weight: bold;
+	text-shadow: black 1px 1px 1px;
+}
+
+hr {
+	background-color: #E7E7E7;
+	border: 0;
+	clear: both;
+	height: 1px;
+	margin-bottom: 18px;
+}
+
+input[type=text] {
+	font-size: 180%;
+	margin: 0.2em 10px;
+	height: 40px;
+	border: 1px solid #DCDCDC;
+}
+
+.submit {
+	margin-left: 0;
+	background: #0A3B86 url(images/submit.png) 0 0 repeat-x;
+	border: 0 solid #0058AC;
+	color: white;
+	padding: 5px 18px;
+	cursor: pointer;
+	-moz-box-shadow: 0 1px 3px #999;
+	-webkit-box-shadow: 0 1px 3px #999;
+	text-shadow: 0 -1px 0 #333;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.submit:hover {
+	background: #0A3B86 url(images/submit_hover.png) 0 0 repeat-x;
+}
+
+.submit:active {
+	background: #0A3B86 url(images/submit_reversed.png) 0 0 repeat-x;
+}
+
+#result {
+	display: none;
+}
